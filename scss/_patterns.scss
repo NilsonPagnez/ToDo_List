@@ -1,0 +1,38 @@
+button{
+    background-color: #fdfdfd;
+    color: #102f5e;
+    border: 2px solid #102f5e;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    
+    i{
+        pointer-events: none;
+    }
+    
+    &:hover{
+        background-color: #102f5e;
+        color:#fdfdfd ;
+    }
+}
+
+input, select{
+    padding: 0.6rem;
+}
+
+.hide{
+    display: none;
+}
+
+.done{
+    background-color: #395169;
+    h3{
+        color: #fdfdfd;
+        text-decoration: line-through;
+        font-style: italic;
+    }
+}

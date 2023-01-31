@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-List</title>
+    <link rel="stylesheet" href="scss/main.css">
+    <script src="https://kit.fontawesome.com/a76370940e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="toDo-container">
+        <header>
+            <h1>ToDo-List</h1>
+        </header>
+        <form class="toDo-form"  action="">
+            <p>Adicione a sua tarefa:</p>
+            <div class="form-control">
+                <input type="text" class="toDo-input" placeholder="O que você vai fazer?">
+                <button type="submit">
+                    <i class="fa-thin fa-plus"></i>
+
+                </button>
+            </div>
+        </form>
+        <form class="edit-form hide">
+            <p>Edite a sua tarefa:</p>
+            <div class="form-control">
+                <input type="text" class="edit-input">
+                <button type="submit">
+                    <i class="fa-solid fa-check-double"></i>
+                </button>
+            </div>
+            <button class="cancel-edit-btn">
+                Cancelar
+
+            </button>
+            
+        </form>
+
+     
+        <div class="toDo-list">
+            <div class="toDo">
+                <h3>Estou fazendo algo...</h3>
+
+                <button class="finish-toDo">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+
+                <button class="edit-toDo">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+
+                <button class="remove-toDo">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="toDo">
+                <h3>Estou fazendo algo...</h3>
+
+                <button class="finish-toDo">
+                    <i class="fa-solid fa-check"></i>
+                </button>
+
+                <button class="edit-toDo">
+                    <i class="fa-solid fa-pen"></i>
+                </button>
+
+                <button class="remove-toDo">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

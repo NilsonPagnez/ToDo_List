@@ -1,0 +1,104 @@
+button {
+  background-color: #fdfdfd;
+  color: #102f5e;
+  border: 2px solid #102f5e;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+button i {
+  pointer-events: none;
+}
+button:hover {
+  background-color: #102f5e;
+  color: #fdfdfd;
+}
+
+input, select {
+  padding: 0.6rem;
+}
+
+.hide {
+  display: none;
+}
+
+.done {
+  background-color: #395169;
+}
+.done h3 {
+  color: #fdfdfd;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: Helvetica;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../image/beautiful-sunset-beach-landscape-with-a-boat.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .toDo-container {
+  max-width: 55rem;
+  width: 100%;
+  margin: 4rem auto;
+  padding: 1.5rem;
+  background-color: #fdfdfd;
+  border-radius: 1.5rem;
+}
+body .toDo-container header {
+  text-align: center;
+  padding: 0 1.5rem 1.5rem;
+  border-bottom: 0.1rem solid #ccc;
+}
+body .toDo-container header h1 {
+  font-size: 2.5rem;
+}
+body .toDo-form, body .edit-form {
+  padding: 1rem;
+  border-bottom: 0.1rem solid #ccc;
+}
+body .toDo-form p, body .edit-form p {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+body .toDo-form .form-control, body .edit-form .form-control {
+  display: flex;
+}
+body .toDo-form .form-control input, body .edit-form .form-control input {
+  margin-right: 0.7rem;
+}
+body .toDo-form .cancel-edit-btn, body .edit-form .cancel-edit-btn {
+  margin-top: 1rem;
+}
+body .toDo-list .toDo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 0.1rem solid #ddd;
+  transition: 0.3s;
+}
+body .toDo-list .toDo h3 {
+  flex: 1;
+  font-size: 1.4rem;
+}
+body .toDo-list .toDo button {
+  margin-left: 1rem;
+}/*# sourceMappingURL=main.css.map */

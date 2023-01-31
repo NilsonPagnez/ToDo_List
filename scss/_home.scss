@@ -1,0 +1,61 @@
+body{
+    background-image: url(../image/beautiful-sunset-beach-landscape-with-a-boat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .toDo-container{
+        max-width: 55rem;
+        width: 100%;
+        margin: 4rem auto;
+        padding: 1.5rem;
+        background-color: #fdfdfd;
+        border-radius: 1.5rem;
+        header{
+            text-align: center;
+            padding: 0 1.5rem 1.5rem;
+            border-bottom: 0.1rem solid #ccc;
+            h1{
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    .toDo-form, .edit-form{
+        padding: 1rem;
+        border-bottom: 0.1rem solid #ccc;
+
+        p{
+            margin-bottom:  1rem;
+            font-weight: bold;
+        }
+        .form-control{
+            display: flex;
+            input{
+                margin-right: 0.7rem;
+            }
+        }
+        .cancel-edit-btn{
+            margin-top: 1rem;
+        }
+    }
+    
+  
+
+    .toDo-list{
+        .toDo{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 1rem;
+            border-bottom: 0.1rem solid #ddd;
+            transition: 0.3s;
+
+            h3{
+                flex: 1;
+                font-size: 1.4rem;
+            }
+            button{
+                margin-left: 1rem;
+            }
+        }
+    }
+}
